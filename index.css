@@ -1,0 +1,34 @@
+main {
+  padding: 30px;
+}
+
+blockquote {
+  max-width: 300px;
+}
+
+blockquote + .author {
+  margin-bottom: 60px;
+}
+
+blockquote::before {
+  content: "\"";
+  color: #8888ff;
+  font-size: 20px;
+  margin-right: 5px;
+}
+blockquote::after {
+  content: "\"";
+  color: #8888ff;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.author {
+  color: grey;
+}
+.author::before {
+  content: "-";
+  color: #8888ff;
+  margin-right: 5px;
+  margin-left: 150px;
+}
